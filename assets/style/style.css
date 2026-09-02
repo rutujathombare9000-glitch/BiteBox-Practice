@@ -9,3 +9,36 @@
   color: red;
 }
 
+.nav-link:hover{
+    border-bottom: 2px solid red;
+
+}
+
+.nav-link:active{
+    font-size: 20px;
+}
+
+h2 + ul > li {
+    list-style-type: square;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+table th , table td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th,td{
+    padding: 10px;
+}
+
+.centre{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
